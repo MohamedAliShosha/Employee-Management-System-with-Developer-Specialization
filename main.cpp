@@ -14,7 +14,6 @@ class Employee {
         string _department;
 
 public:
-    // Constructor used to give initial values to the attributes
     Employee(int ID,  string firstName,  string lastName , string title , string Email,  string phone , int salary , string department)
     {
         _ID = ID;
