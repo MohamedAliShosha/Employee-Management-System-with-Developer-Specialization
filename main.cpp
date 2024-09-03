@@ -31,10 +31,8 @@ public:
     {
         
     }
-
-    // Getter methods (optional)
     
-    int getID() // Read only property
+    int getID() 
     { 
         return _ID; 
         
@@ -93,7 +91,6 @@ public:
         return _department;
     }
     
-    // Setter methods (optional)
  
     void setFirstName (string firstName) 
     {
